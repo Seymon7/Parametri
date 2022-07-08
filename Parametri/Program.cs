@@ -14,6 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+Console.WriteLine("commento di Simone");
 // Configurazione w3c logger
 builder.Services.AddW3CLogging(logging =>
 {
